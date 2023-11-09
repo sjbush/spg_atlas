@@ -1,0 +1,3 @@
+Publication	SRA sample ID	SRA run ID(s)	Library layout	Age category	Age	Technology	BAM URLs	Origin of sample	Tissue preservation method	Phenotype
+Huang 2023	SRS11257878	SRR17169788,SRR17169789,SRR17169790,SRR17169791	PAIRED	pre-puberty	3 months	10XV3	NA	castration	frozen	WT
+Huang 2023	SRS11257879	SRR17169792,SRR17169793,SRR17169794,SRR17169795	PAIRED	peri-puberty	2 years	10XV3	NA	castration	frozen	WT

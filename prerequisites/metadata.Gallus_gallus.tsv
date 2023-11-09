@@ -1,0 +1,8 @@
+Publication	SRA sample ID	SRA run ID(s)	Library layout	Age category	Age	Technology	BAM URLs	Origin of sample	Tissue preservation method	Phenotype
+Choi 2023	SRS10099509	SRR15827463	PAIRED	embryonic	E2.5	10XV3	NA	postmortem from donor	fresh	DAZL::GFP transgenic chicken
+Choi 2023	SRS10099510	SRR15827462	PAIRED	embryonic	E6	10XV3	NA	postmortem from donor	fresh	DAZL::GFP transgenic chicken
+Choi 2023	SRS10099514	SRR15827458	PAIRED	embryonic	E8	10XV3	NA	postmortem from donor	fresh	DAZL::GFP transgenic chicken
+Choi 2023	SRS10099515	SRR15827457	PAIRED	embryonic	E12	10XV3	NA	postmortem from donor	fresh	DAZL::GFP transgenic chicken
+Choi 2023	SRS10099516	SRR15827456	PAIRED	embryonic	E16	10XV3	NA	postmortem from donor	fresh	DAZL::GFP transgenic chicken
+Choi 2023	SRS10099517	SRR15827455	PAIRED	postnatal	hatch	10XV3	NA	postmortem from donor	fresh	DAZL::GFP transgenic chicken
+Choi 2023	SRS10099518	SRR15827454	PAIRED	postnatal	1 week post-hatching	10XV3	NA	postmortem from donor	fresh	DAZL::GFP transgenic chicken

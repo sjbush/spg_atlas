@@ -1,0 +1,98 @@
+Publication	SRA sample ID	SRA run ID(s)	Library layout	Age category	Age	Technology	BAM URLs	Origin of sample	Tissue preservation method	Phenotype
+Chen 2020	OES026004	OER039859	PAIRED	adult	36 years	GEXSCOPE	NA	biopsy from patient undergoing testicular sperm extraction for obstructive azoospermia (epididymitis)	solution	WT
+Di Persio 2021	SRS6959440	SRR12164933	PAIRED	adult	31 years	10XV2	NA	biopsy from patient undergoing testicular sperm extraction for obstructive azoospermia (physical obstruction of the vas deferens)	cryopreservation	WT
+Di Persio 2021	SRS6959441	SRR12164934	PAIRED	adult	33 years	10XV2	NA	biopsy from patient undergoing testicular sperm extraction for obstructive azoospermia (congenital bilateral absence of the vas deferens)	cryopreservation	WT
+Di Persio 2021	SRS6959442	SRR12164935	PAIRED	adult	55 years	10XV2	NA	biopsy from patient undergoing testicular sperm extraction for obstructive azoospermia (vasectomy)	cryopreservation	WT
+Guo 2018	SRS3065426	SRR6860519	PAIRED	adult	17 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2018	SRS3065427	SRR6860521	PAIRED	adult	24 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2018	SRS3065428	SRR6860520	PAIRED	adult	17 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2018	SRS3065429	SRR6860522	PAIRED	adult	24 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2018	SRS3065430	SRR6860524	PAIRED	adult	25 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2018	SRS3065431	SRR6860523	PAIRED	adult	25 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2018	SRS3822680	SRR7904997	PAIRED	child	13 months	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2018	SRS3822682	SRR7904998	PAIRED	child	13 months	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2018	SRS3822683	SRR7904999	PAIRED	child	13 months	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2018	SRS3822686	SRR7905000	PAIRED	child	13 months	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2020	SRS5787712	SRR10615251,SRR10615252	PAIRED	adult	26 years	10XV2	NA	testes removed by elective surgery from T-suppressed transfemale	cryopreservation	NOA (T-suppressed)
+Guo 2020	SRS5086066	SRR9670695	PAIRED	adult	50 years	10XV2	NA	testes removed by elective surgery from T-suppressed transfemale	cryopreservation	NOA (T-suppressed)
+Guo 2020	SRS5086065	SRR9670694	PAIRED	adult	50 years	10XV2	NA	testes removed by elective surgery from T-suppressed transfemale	cryopreservation	NOA (T-suppressed)
+Guo 2020	SRS5086064	SRR9670693	PAIRED	adult	14 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2020	SRS5086063	SRR9670692	PAIRED	adult	14 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2020	SRS5086062	SRR9670691	PAIRED	child	13 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2020	SRS5086061	SRR9670690	PAIRED	child	13 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2020	SRS5086060	SRR9670689	PAIRED	child	11 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2020	SRS5086059	SRR9670688	PAIRED	child	11 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2020	SRS5086058	SRR9670687	PAIRED	child	7 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2020	SRS5086057	SRR9670686	PAIRED	child	7 years	10XV2	NA	postmortem from donor	cryopreservation	WT
+Hermann 2018	SRS2823404	SRR6459187	PAIRED	adult	37 years	10XV2	https://sra-pub-src-1.s3.amazonaws.com/SRR6459187/HumanSpermatogonia_17_1_possorted_genome_bam.bam.1	FACS-sorted spermatogonia, from residual tissue after biopsy in preparation for vasectomy reversal or testicular sperm extraction	cryopreservation	WT
+Hermann 2018	SRS2823405	SRR6459188	PAIRED	adult	38 years	10XV2	https://sra-pub-src-1.s3.amazonaws.com/SRR6459188/HumanSpermatogonia_17_2_possorted_genome_bam.bam.1	FACS-sorted spermatogonia, from residual tissue after biopsy in preparation for vasectomy reversal or testicular sperm extraction	cryopreservation	WT
+Hermann 2018	SRS2823406	SRR6459189	PAIRED	adult	49 years	10XV2	https://sra-pub-src-1.s3.amazonaws.com/SRR6459189/HumanSpermatogonia_17_5_possorted_genome_bam.bam.1	FACS-sorted spermatogonia, from residual tissue after biopsy in preparation for vasectomy reversal or testicular sperm extraction	cryopreservation	WT
+Hermann 2018	SRS2823407	SRR6459190	PAIRED	adult	34 years	10XV2	https://sra-pub-src-1.s3.amazonaws.com/SRR6459190/AdultHuman_17_3_possorted_genome_bam.bam.1	FACS-sorted steady-state spermatogenic cells, from residual tissue after biopsy in preparation for vasectomy reversal or testicular sperm extraction	cryopreservation	WT
+Hermann 2018	SRS2823408	SRR6459192	PAIRED	adult	49 years	10XV2	https://sra-pub-src-1.s3.amazonaws.com/SRR6459192/AdultHuman_17_5_possorted_genome_bam.bam.1	FACS-sorted steady-state spermatogenic cells, from residual tissue after biopsy in preparation for vasectomy reversal or testicular sperm extraction	cryopreservation	WT
+Hermann 2018	SRS2823409	SRR6459191	PAIRED	adult	36 years	10XV2	https://sra-pub-src-1.s3.amazonaws.com/SRR6459191/AdultHuman_17_4_possorted_genome_bam.bam.1	FACS-sorted steady-state spermatogenic cells, from residual tissue after biopsy in preparation for vasectomy reversal or testicular sperm extraction	cryopreservation	WT
+Hermann 2018	SRS2823410	SRR6459193	PAIRED	adult	43 years	10XV2	https://sra-pub-src-1.s3.amazonaws.com/SRR6459193/AdultHuman_Spermatocytes_possorted_genome_bam.bam.1	Sta-Put enriched spermatocytes	cryopreservation	WT
+Hermann 2018	SRS2823412	SRR6459194	PAIRED	adult	43 years	10XV2	https://sra-pub-src-1.s3.amazonaws.com/SRR6459194/AdultHuman_Spermatids_possorted_genome_bam.bam.1	Sta-Put enriched spermatids	cryopreservation	WT
+Hermann 2018	SRS3572594	SRR7553900	PAIRED	adult	43 years	10XV2	https://sra-pub-src-1.s3.amazonaws.com/SRR7553900/AdultHuman_Spermatocytes_17_11_possorted_genome_bam.bam.1	Sta-Put enriched spermatocytes	cryopreservation	WT
+Hermann 2018	SRS3572595	SRR7553901	PAIRED	adult	43 years	10XV2	https://sra-pub-src-1.s3.amazonaws.com/SRR7553901/AdultHuman_Spermatids_17_11_possorted_genome_bam.bam.1	Sta-Put enriched spermatids	cryopreservation	WT
+Laurentino 2019	SRS4661019	SRR8942607	PAIRED	unknown	not stated	10XV2	NA	biopsy from patient undergoing testicular sperm extraction for non-obstructive azoospermia (Klinefelter syndrome)	solution	NOA (Klinefelter)
+Shami 2020	SRS5883810	SRR10765311,SRR10765312	PAIRED	adult	37 years	DROPSEQ	NA	postmortem from donor	cryopreservation	WT
+Shami 2020	SRS5883811	SRR10765313,SRR10765314	PAIRED	adult	37 years	DROPSEQ	NA	postmortem from donor	cryopreservation	WT
+Shami 2020	SRS5883812	SRR10765315,SRR10765316	PAIRED	adult	30-40 years	DROPSEQ	NA	postmortem from donor	cryopreservation	WT
+Shami 2020	SRS5883813	SRR10765317,SRR10765318,SRR10765319,SRR10765320	PAIRED	adult	30-40 years	DROPSEQ	NA	postmortem from donor	cryopreservation	WT
+Shami 2020	SRS5883814	SRR10765321	PAIRED	adult	30-40 years	DROPSEQ	NA	postmortem from donor	cryopreservation	WT
+Shami 2020	SRS5883824	SRR10765301,SRR10765302	PAIRED	adult	20-25 years	DROPSEQ	NA	postmortem from donor	cryopreservation	WT
+Shami 2020	SRS5883825	SRR10765303,SRR10765304	PAIRED	adult	20-25 years	DROPSEQ	NA	postmortem from donor	cryopreservation	WT
+Shami 2020	SRS5883826	SRR10765305,SRR10765306	PAIRED	adult	20-25 years	DROPSEQ	NA	postmortem from donor	cryopreservation	WT
+Sohni 2019	SRS4181123	SRR8363218,SRR8363219,SRR8363220,SRR8363221,SRR8363222,SRR8363223,SRR8363224,SRR8363225,SRR8363226,SRR8363227,SRR8363228,SRR8363229,SRR8363230,SRR8363231,SRR8363232,SRR8363233,SRR8363234,SRR8363235,SRR8363236,SRR8363237,SRR8363238,SRR8363239,SRR8363240,SRR8363241	PAIRED	child	2 days	10XV2	NA	postmortem from donor	cryopreservation	WT
+Sohni 2019	SRS4181124	SRR8363194,SRR8363195,SRR8363196,SRR8363197,SRR8363198,SRR8363199,SRR8363200,SRR8363201,SRR8363202,SRR8363203,SRR8363204,SRR8363205,SRR8363206,SRR8363207,SRR8363208,SRR8363209,SRR8363210,SRR8363211,SRR8363212,SRR8363213,SRR8363214,SRR8363215,SRR8363216,SRR8363217	PAIRED	child	2 days	10XV2	NA	postmortem from donor	cryopreservation	ITGA6-enriched
+Sohni 2019	SRS4181125	SRR8363242,SRR8363243,SRR8363244,SRR8363245,SRR8363246,SRR8363247,SRR8363248,SRR8363249,SRR8363266,SRR8363267,SRR8363268,SRR8363269	PAIRED	child	7 days	10XV2	NA	postmortem from donor	cryopreservation	ITGA6-enriched
+Sohni 2019	SRS4181126	SRR8363270,SRR8363271,SRR8363272,SRR8363273,SRR8363274,SRR8363275,SRR8363276,SRR8363277,SRR8363278,SRR8363279,SRR8363280,SRR8363281	PAIRED	child	7 days	10XV2	NA	postmortem from donor	cryopreservation	WT
+Sohni 2019	SRS4181127	SRR8363250,SRR8363251,SRR8363252,SRR8363253,SRR8363254,SRR8363255,SRR8363306,SRR8363307,SRR8363308,SRR8363309,SRR8363310,SRR8363311,SRR8363312,SRR8363313,SRR8363314,SRR8363315,SRR8363316,SRR8363317,SRR8363318,SRR8363319,SRR8363256,SRR8363257,SRR8363320,SRR8363321	PAIRED	adult	37 years	10XV2	NA	biopsy from patient undergoing vasectomy reversal	cryopreservation	WT
+Sohni 2019	SRS4181128	SRR8363282,SRR8363283,SRR8363284,SRR8363285,SRR8363286,SRR8363287,SRR8363288,SRR8363289,SRR8363290,SRR8363291,SRR8363292,SRR8363293,SRR8363294,SRR8363295,SRR8363296,SRR8363297,SRR8363298,SRR8363299,SRR8363300,SRR8363301,SRR8363302,SRR8363303,SRR8363304,SRR8363305	PAIRED	adult	37 years	10XV2	NA	biopsy from patient undergoing vasectomy reversal	cryopreservation	ITGA6-enriched
+Sohni 2019	SRS4181129	SRR8363258,SRR8363259,SRR8363260,SRR8363261	PAIRED	adult	42 years	10XV2	NA	biopsy from patient undergoing vasectomy reversal	cryopreservation	ITGA6-enriched
+Sohni 2019	SRS4181130	SRR8363262,SRR8363263,SRR8363264,SRR8363265	PAIRED	adult	42 years	10XV2	NA	biopsy from patient undergoing vasectomy reversal	cryopreservation	WT
+Tan 2020	SRS6051973	SRR10953078	PAIRED	adult	37 years	10XV3	NA	spermatogonia cultured with AKT-I + FGF2 after being purified from dissociated testicular cells obtained from biopsy of patient undergoing vasectomy reversal	cryopreservation	WT
+Tan 2020	SRS6051971	SRR10953077	PAIRED	adult	32 years	10XV3	NA	spermatogonia cultured with AKT-I + FGF2 after being purified from dissociated testicular cells obtained from biopsy of patient undergoing vasectomy reversal	cryopreservation	WT
+Tan 2020	SRS6051970	SRR10953076	PAIRED	adult	37 years	10XV3	NA	spermatogonia cultured with FGF2 after being purified from dissociated testicular cells obtained from biopsy of patient undergoing vasectomy reversal	cryopreservation	WT
+Tan 2020	SRS6051969	SRR10953075	PAIRED	adult	32 years	10XV3	NA	spermatogonia cultured with FGF2 after being purified from dissociated testicular cells obtained from biopsy of patient undergoing vasectomy reversal	cryopreservation	WT
+Zhao 2020	LZ003	SRR11509931	PAIRED	adult	31 years	10XV3	NA	either residual tissue after testicular sperm extraction, or a biopsy or partial testicular excision from a patient presenting with either testicular torsion, benign testicle mass, or cyptorchidism	not stated; assumed fresh (libraries prepared directly)	WT
+Zhao 2020	LZ005	SRR11509939,SRR11616269,SRR11616270,SRR11616271,SRR11616272,SRR11616273,SRR11616274,SRR11616275	PAIRED	child	8 years	10XV3	NA	either residual tissue after testicular sperm extraction, or a biopsy or partial testicular excision from a patient presenting with either testicular torsion, benign testicle mass, or cyptorchidism	not stated; assumed fresh (libraries prepared directly)	WT
+Zhao 2020	LZ007	SRR11509938,SRR11549162,SRR11549163,SRR11549164	PAIRED	adult	31 years	10XV3	NA	either residual tissue after testicular sperm extraction, or a biopsy or partial testicular excision from a patient presenting with either testicular torsion, benign testicle mass, or cyptorchidism	not stated; assumed fresh (libraries prepared directly)	WT
+Zhao 2020	LZ008	SRR11509937	PAIRED	child	11 years	10XV3	NA	either residual tissue after testicular sperm extraction, or a biopsy or partial testicular excision from a patient presenting with either testicular torsion, benign testicle mass, or cyptorchidism	not stated; assumed fresh (libraries prepared directly)	WT
+Zhao 2020	LZ009	SRR11509936	PAIRED	child	5 years	10XV3	NA	either residual tissue after testicular sperm extraction, or a biopsy or partial testicular excision from a patient presenting with either testicular torsion, benign testicle mass, or cyptorchidism	not stated; assumed fresh (libraries prepared directly)	WT
+Zhao 2020	LZ011	SRR11509934,SRR11549159,SRR11549160,SRR11549161	PAIRED	child	2 years	10XV3	NA	either residual tissue after testicular sperm extraction, or a biopsy or partial testicular excision from a patient presenting with either testicular torsion, benign testicle mass, or cyptorchidism	not stated; assumed fresh (libraries prepared directly)	WT
+Zhao 2020	LZ016	SRR11509929,SRR11549156,SRR11549157,SRR11549158	PAIRED	adult	17 years	10XV3	NA	either residual tissue after testicular sperm extraction, or a biopsy or partial testicular excision from a patient presenting with either testicular torsion, benign testicle mass, or cyptorchidism	not stated; assumed fresh (libraries prepared directly)	WT
+Guo 2021	SRS5966822	SRR10857331,SRR10857332	SINGLE	embryo/foetus	6 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2021	SRS5966823	SRR10857333,SRR10857334	SINGLE	embryo/foetus	7 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2021	SRS5966825	SRR10857335,SRR10857336	SINGLE	embryo/foetus	8 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2021	SRS6501618	SRR11570161	SINGLE	embryo/foetus	12 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2021	SRS5966826	SRR10857338,SRR10857339	SINGLE	embryo/foetus	15 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2021	SRS5966827	SRR10857340,SRR10857341	SINGLE	embryo/foetus	16 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2021	SRS7727466	SRR13073082	PAIRED	child	5 months	10XV2	NA	postmortem from donor	cryopreservation	WT
+Guo 2021	SRS7727467	SRR13073083	PAIRED	child	5 months	10XV2	NA	postmortem from donor	cryopreservation	WT
+Nie 2022	SRS9921715	SRR15613719	PAIRED	adult	17 years	10XV3	NA	postmortem from donor	cryopreservation	WT
+Nie 2022	SRS9921716	SRR15613720	PAIRED	adult	22 years	10XV3	NA	postmortem from donor	cryopreservation	WT
+Nie 2022	SRS9921717	SRR15613721	PAIRED	adult	22 years	10XV3	NA	postmortem from donor	cryopreservation	WT
+Nie 2022	SRS9921718	SRR15613722	PAIRED	adult	21 years	10XV3	NA	postmortem from donor	cryopreservation	WT
+Nie 2022	SRS9921719	SRR15613723	PAIRED	adult	66 years	10XV3	NA	postmortem from donor	cryopreservation	WT
+Nie 2022	SRS9921720	SRR15613724	PAIRED	adult	66 years	10XV3	NA	postmortem from donor	cryopreservation	WT
+Nie 2022	SRS9921721	SRR15613725	PAIRED	adult	66 years	10XV3	NA	postmortem from donor	cryopreservation	WT
+Nie 2022	SRS9921722	SRR15613726	PAIRED	adult	62 years	10XV3	NA	postmortem from donor	cryopreservation	WT
+Nie 2022	SRS9921723	SRR15613727	PAIRED	adult	66 years	10XV3	NA	postmortem from donor	cryopreservation	WT
+Nie 2022	SRS9921724	SRR15613728	PAIRED	adult	64 years	10XV3	NA	postmortem from donor	cryopreservation	high BMI and impaired fertility
+Nie 2022	SRS9921725	SRR15613729	PAIRED	adult	76 years	10XV3	NA	postmortem from donor	cryopreservation	high BMI and impaired fertility
+Nie 2022	SRS9921726	SRR15613730	PAIRED	adult	67 years	10XV3	NA	postmortem from donor	cryopreservation	high BMI and impaired fertility
+Wang 2022	HRR131888	HRR131888	PAIRED	embryo/foetus	6 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Wang 2022	HRR131893	HRR131893	PAIRED	embryo/foetus	8 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Wang 2022	HRR131892	HRR131892	PAIRED	embryo/foetus	8 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Wang 2022	HRR131894	HRR131894	PAIRED	embryo/foetus	9 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Wang 2022	HRR131895	HRR131895	PAIRED	embryo/foetus	10 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Wang 2022	HRR131897	HRR131897	PAIRED	embryo/foetus	15 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Wang 2022	HRR131898	HRR131898	PAIRED	embryo/foetus	15 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Wang 2022	HRR131901	HRR131901	PAIRED	embryo/foetus	19 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Wang 2022	HRR131905	HRR131905	PAIRED	embryo/foetus	23 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Wang 2022	HRR131904	HRR131904	PAIRED	embryo/foetus	23 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Wang 2022	HRR131906	HRR131906	PAIRED	embryo/foetus	23 weeks	10XV2	NA	postmortem from donor	cryopreservation	WT
+Voigt 2022	SRS12015708	SRR18042673	PAIRED	child	7 years	10XV3	ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR180/SRR18042673/KO_20_count_new_possorted_genome_bam.bam.1	postmortem from donor	cryopreservation	WT
+Voigt 2022	SRS12015709	SRR18042672	PAIRED	child	1 year	10XV3	ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR180/SRR18042672/KO_22_count_new_possorted_genome_bam.bam.1	postmortem from donor	cryopreservation	WT
+Voigt 2022	SRS12015710	SRR18042671	PAIRED	child	2 years	10XV3	ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR180/SRR18042671/KO_21_count_new_possorted_genome_bam.bam.1	postmortem from donor	cryopreservation	WT

@@ -1,0 +1,12 @@
+Publication	SRA sample ID	SRA run ID(s)	Library layout	Age category	Age	Technology	BAM URL	Origin of sample	Tissue preservation method	Phenotype
+Shami 2020	SRS5883815	SRR10765322,SRR10765323	PAIRED	adult	>= 4 years	DROPSEQ	NA	castration	cryopreservation	WT
+Shami 2020	SRS5883817	SRR10765326,SRR10765327	PAIRED	adult	9.3 years	DROPSEQ	NA	castration	cryopreservation	WT
+Shami 2020	SRS5883818	SRR10765328,SRR10765329	PAIRED	adult	7.3 years	DROPSEQ	NA	castration	cryopreservation	WT
+Shami 2020	SRS5883819	SRR10765330,SRR10765331	PAIRED	adult	7.3 years	DROPSEQ	NA	castration	cryopreservation	WT
+Shami 2020	SRS5883820	SRR10765332	PAIRED	adult	13 years	DROPSEQ	NA	castration	cryopreservation	WT
+Shami 2020	SRS5883821	SRR10765333	PAIRED	adult	13 years	DROPSEQ	NA	castration	cryopreservation	WT
+Shami 2020	SRS5883822	SRR10765334	PAIRED	adult	5.9 years	DROPSEQ	NA	castration	cryopreservation	WT
+Shami 2020	SRS5883823	SRR10765335	PAIRED	adult	5.9 years	DROPSEQ	NA	castration	cryopreservation	WT
+Singh 2023	SRS16347195	SRR22963913,SRR22963914,SRR22963916,SRR22963917,SRR22963918,SRR22963919,SRR22963920,SRR22963921,SRR22963922,SRR22963923,SRR22963924,SRR22963925,SRR22963926,SRR22963927,SRR22963928	PAIRED	unknown	unknown	10XV2	NA	postmortem from donor	fresh	Rhesus34403
+Singh 2023	SRS16347199	SRR22963910	PAIRED	unknown	unknown	10XV2	NA	postmortem from donor	fresh	Rhesus37136A
+Singh 2023	SRS16347200	SRR22963909	PAIRED	unknown	unknown	10XV2	NA	postmortem from donor	fresh	Rhesus37136B

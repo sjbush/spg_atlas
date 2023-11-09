@@ -73,13 +73,13 @@ This script parses the RDS object created in script 8 and outputs, per cluster a
 
 ## 12.create_summary_table_of_atlas
 
-12a.create_summary_table_of_whole_testes_atlas.pl
+_12a.create_summary_table_of_whole_testes_atlas.pl
 
 12b.create_summary_table_of_States0to4_resolution_0.3.pl
 
 12c.create_summary_table_of_States0to4_resolution_1.1.pl
 
-12d.create_summary_table_of_States0to4_resolution_1.2.pl
+12d.create_summary_table_of_States0to4_resolution_1.2.pl_
 
 These scripts aggregate the various atlas metadata files to create summary tables for both the whole testes and SSC atlases (the latter at three different resolutions) which detail, per gene, its average expression across all cells per cell type/SSC state, the proportion of cells in which it is detectably expressed, and Seurat’s all-against-all differential expression analysis results (from script 9). The intention with these tables is to facilitate rapid identification of prospective biomarkers for a given cluster (i.e. cell type/state). The tables are provided as **Supplementary Tables 5, 6, 7 and 8**.
 
@@ -89,31 +89,31 @@ This script parses a per-gene list of GO term accessions downloaded from [Ensemb
 
 ## 14.run_topgo_on_cluster_markers_for_atlas
 
-14a.run_topgo_on_cluster_markers_for_whole_testes_atlas.pl
+_14a.run_topgo_on_cluster_markers_for_whole_testes_atlas.pl
 
 14b.run_topgo_on_cluster_markers_for_SSC_atlas.pl
 
-14c.run_topgo_on_cluster_markers_for_SSC_atlas_in_X_vs_Y_comparison.pl
+14c.run_topgo_on_cluster_markers_for_SSC_atlas_in_X_vs_Y_comparison.pl_
 
 These scripts parse both the differential expression analysis results (from script 9) and the per-gene GO term list (from script 13) to create the input files and R code necessary to run the GO term enrichment analysis package topGO.
 
 ## 15.parse_topgo_results_for_atlas
 
-15a.parse_topgo_results_for_whole_testes_atlas.pl
+_15a.parse_topgo_results_for_whole_testes_atlas.pl
 
 15b.parse_topgo_results_for_SSC_atlas.pl
 
-15c.parse_topgo_results_for_SSC_atlas_in_X_vs_Y_comparison.pl
+15c.parse_topgo_results_for_SSC_atlas_in_X_vs_Y_comparison.pl_
 
 These scripts parse the topGO output into user-friendly results tables, alongside providing additional summary statistics (e.g. the percentage of the total genes with each GO term present in each cluster). The GO terms enriched among the set of genes differentially expressed in each cluster in each atlas, for both all-against-all and pairwise comparisons, are given as **Supplementary Tables 9 to 11**.
 
 ## 16.run_scVelo
 
-16a.parse_States0to4_to_obtain_only_reads_from_particular_cells.pl
+_16a.parse_States0to4_to_obtain_only_reads_from_particular_cells.pl
 
 16b.run_scvelo_on_States0to4_atlas_at_resolution1_1.py
 
-16c.run_scvelo_on_States0to4_atlas_at_resolution1_2.py
+16c.run_scvelo_on_States0to4_atlas_at_resolution1_2.py_
 
 To calculate RNA velocity, we first need to obtain all reads associated with the cell barcodes used in the SSC atlas. We’ll only need to calculate velocity for these cells, because it’s only those that will later be projected onto the atlas UMAP. To do this, script 16a exports the list of cell barcodes and their associated sample ID from the atlas RDS, created by script 8. This is later used as input for scripts 16b and 16c, which contain the [scVelo](https://scvelo.readthedocs.io/) commands for creating the velocity plots of **Figure 2** and **Supplementary Figure 11**.
 
@@ -123,7 +123,7 @@ This script parses one-to-one gene orthology data downloaded from [Ensembl BioMa
 
 ## 18.project_data_onto_atlas
 
-18a.project_mouse_time_course_onto_adult_whole_testes.R
+_18a.project_mouse_time_course_onto_adult_whole_testes.R
 
 18b.project_mouse_germline_time_course_onto_States0to4_resolution1_1.R
 
@@ -141,17 +141,17 @@ This script parses one-to-one gene orthology data downloaded from [Ensembl BioMa
 
 18i.project_Hermann_samples_onto_States0to4_resolution1_1_to_validate_projection_strategy.R
 
-18j.project_undiff_mouse_SSCs_onto_States0to4_resolution1_1.R
+18j.project_undiff_mouse_SSCs_onto_States0to4_resolution1_1.R_
 
 These scripts contain the Seurat commands necessary to project cells from a given sample onto the SSC atlas. They employ a gating strategy to first distinguish somatic from germline cells, and then re-project only the latter onto the SSC UMAP. These scripts create **Figures 4** (sheep, pig, buffalo, macaque), **5** (rat), and **6** (mouse).
 
 ## 19.count_num_of_cells_projected_to_each_State0to4_cluster_for_human/mouse/other
 
-19a.count_num_of_cells_projected_to_each_State0to4_cluster_for_human_germline_time_course.pl
+_19a.count_num_of_cells_projected_to_each_State0to4_cluster_for_human_germline_time_course.pl
 
 19b.count_num_of_cells_projected_to_each_State0to4_cluster_for_mouse_time_course.pl
 
-19c.count_num_of_cells_projected_to_each_State0to4_cluster_for_all_other_species.pl
+19c.count_num_of_cells_projected_to_each_State0to4_cluster_for_all_other_species.pl_
 
 These scripts parse the output of the ‘projection’ scripts to count the proportion of germ cells at each time point classified as state 0, 0A/1, 0B, and so on, as shown in **Supplementary Tables 14, 15, and 16**. These tables constitute the raw data from which **Figures 3A** (human) and **3B** (mouse) are created.
 

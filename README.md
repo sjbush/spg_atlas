@@ -59,38 +59,82 @@ While the whole-testes atlas was created using two scripts (numbers 5 and 6), th
 
 Note that the SSC data were initially clustered at very high resolution (5.0) such that cluster IDs could be assigned to three small contaminating cell populations; these are removed and the dataset iteratively re-integrated to converge on the final atlas. The final SSC atlas is illustrated in **Figure 1**, with the undifferentiated SSCs forming a ‘ring’ structure (bottom right of figure) from which the differentiation trajectory progresses upwards to the onset of the meiotic program (top left of figure). This ‘ring’ can also be seen in [Figure 2C of Sohni 2019](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6402825/figure/F2/), [Figure 5C of Di Persio 2021](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8484693/figure/fig5/), and [Figure S1 of Huang 2023](https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-023-01232-7/MediaObjects/41556_2023_1232_MOESM1_ESM.pdf), although in each case its biological significance is unclear. To gain insight into the transcriptional states comprising this ring, this script clusters the SSC atlas at three different resolutions, empirically selected as the minimum values necessary to partition the ring into two, three or four compartments (resolutions 0.3, 1.1 and 1.2, respectively, illustrated in **Supplementary Figure 9**).
 
-## 9: run_diff_exp_analysis_on_States0to4.R
+## 9.run_diff_exp_analysis_on_States0to4.R
 
 This script contains commands for running Seurat’s [FindAllMarkers](https://satijalab.org/seurat/reference/findallmarkers) and [FindMarkers](https://satijalab.org/seurat/reference/findmarkers) functions, the purpose of which are to identify putative discriminative biomarkers of each cluster, either relative to all other clusters or in a pairwise comparison to one specified other cluster, respectively.
 
-## 10: run_SPIA_on_States0to4.pl
+## 10.run_SPIA_on_States0to4.pl
 
 This script parses the differential expression analysis results (from script 9) to create the input files necessary to run the KEGG enrichment analysis package [SPIA](https://bioconductor.org/packages/SPIA/). R code for running this package is given as comments within the script. The results of the analysis are given as **Supplementary Table 12**.
 
-## 11: count_num_of_cells_per_cluster_in_which_each_gene_is_expressed.R
+## 11.count_num_of_cells_per_cluster_in_which_each_gene_is_expressed.R
 
 This script parses the RDS object created in script 8 and outputs, per cluster and per Seurat resolution, tables showing the number of cells in that cluster expressing each gene, the proportion of cells in that cluster expressing each gene, and the average expression per gene of all cells in which that gene is detectably expressed. These tables are used as input for the next script, which aggregates this data into one large ‘atlas’ table.
 
-## 12a: create_summary_table_of_whole_testes_atlas.pl, 12b: create_summary_table_of_States0to4_resolution_0.3.pl, 12c: create_summary_table_of_States0to4_resolution_1.1.pl, and 12d: create_summary_table_of_States0to4_resolution_1.2.pl
+## 12.create_summary_table_of_atlas
+
+12a.create_summary_table_of_whole_testes_atlas.pl
+12b.create_summary_table_of_States0to4_resolution_0.3.pl
+12c.create_summary_table_of_States0to4_resolution_1.1.pl
+12d.create_summary_table_of_States0to4_resolution_1.2.pl
 
 These scripts aggregate the various atlas metadata files to create summary tables for both the whole testes and SSC atlases (the latter at three different resolutions) which detail, per gene, its average expression across all cells per cell type/SSC state, the proportion of cells in which it is detectably expressed, and Seurat’s all-against-all differential expression analysis results (from script 9). The intention with these tables is to facilitate rapid identification of prospective biomarkers for a given cluster (i.e. cell type/state). The tables are provided as **Supplementary Tables 5, 6, 7 and 8**.
 
-## 13: turn_go_terms_into_map_file.pl
+## 13.turn_go_terms_into_map_file.pl
 
 This script parses a per-gene list of GO term accessions downloaded from [Ensembl BioMart](https://www.ensembl.org/info/data/biomart/index.html), to produce a ‘.map’ file suitable for use with the R package [topGO](https://bioconductor.org/packages/topGO/).
 
-## 14a: run_topgo_on_cluster_markers_for_whole_testes_atlas.pl, 14b: run_topgo_on_cluster_markers_for_SSC_atlas.pl, and 14c: run_topgo_on_cluster_markers_for_SSC_atlas_in_X_vs_Y_comparison.pl
+## 14.run_topgo_on_cluster_markers_for_atlas
+
+14a: run_topgo_on_cluster_markers_for_whole_testes_atlas.pl
+14b: run_topgo_on_cluster_markers_for_SSC_atlas.pl
+14c: run_topgo_on_cluster_markers_for_SSC_atlas_in_X_vs_Y_comparison.pl
 
 These scripts parse both the differential expression analysis results (from script 9) and the per-gene GO term list (from script 13) to create the input files and R code necessary to run the GO term enrichment analysis package topGO.
 
-## 15a.parse_topgo_results_for_whole_testes_atlas.pl, 15b.parse_topgo_results_for_SSC_atlas.pl, and 15c.parse_topgo_results_for_SSC_atlas_in_X_vs_Y_comparison.pl
+## 15.parse_topgo_results_for_atlas
+
+15a.parse_topgo_results_for_whole_testes_atlas.pl
+15b.parse_topgo_results_for_SSC_atlas.pl
+15c.parse_topgo_results_for_SSC_atlas_in_X_vs_Y_comparison.pl
 
 These scripts parse the topGO output into user-friendly results tables, alongside providing additional summary statistics (e.g. the percentage of the total genes with each GO term present in each cluster). The GO terms enriched among the set of genes differentially expressed in each cluster in each atlas, for both all-against-all and pairwise comparisons, are given as **Supplementary Tables 9 to 11**.
 
-## 16a.parse_States0to4_to_obtain_only_reads_from_particular_cells.pl, 16b.run_scvelo_on_States0to4_atlas_at_resolution1_1.py, and 16c.run_scvelo_on_States0to4_atlas_at_resolution1_2.py
+## 16.run_scVelo
+
+16a.parse_States0to4_to_obtain_only_reads_from_particular_cells.pl
+16b.run_scvelo_on_States0to4_atlas_at_resolution1_1.py
+16c.run_scvelo_on_States0to4_atlas_at_resolution1_2.py
 
 To calculate RNA velocity, we first need to obtain all reads associated with the cell barcodes used in the SSC atlas. We’ll only need to calculate velocity for these cells, because it’s only those that will later be projected onto the atlas UMAP. To do this, script 16a exports the list of cell barcodes and their associated sample ID from the atlas RDS, created by script 8. This is later used as input for scripts 16b and 16c, which contain the [scVelo](https://scvelo.readthedocs.io/) commands for creating the velocity plots of **Figure 2** and **Supplementary Figure 11**.
 
 ## 17.create_SpeciesX_to_human_symbol_lookup_table.pl
 
 This script parses one-to-one gene orthology data downloaded from [Ensembl BioMart](https://www.ensembl.org/info/data/biomart/index.html) to create a series of lookup tables, one per species, showing the equivalent human name for each gene. These tables are later used when projecting data from each species onto the human SSC UMAP.
+
+## 18.project_data_onto_atlas
+
+18a.project_mouse_time_course_onto_adult_whole_testes.R
+18b.project_mouse_germline_time_course_onto_States0to4_resolution1_1.R
+18c.project_human_time_course_onto_adult_whole_testes.R
+18d.project_human_germline_time_course_onto_States0to4_resolution1_1.R
+18e.project_sheep_pig_buffalo_and_cynomolgus_macaque_onto_adult_whole_testes.R
+18f.project_sheep_pig_buffalo_and_cynomolgus_macaque_onto_States0to4_resolution1_1.R
+18g.project_rat_onto_adult_whole_testes.R
+18h.project_rat_onto_States0to4_resolution1_1.R
+18i.project_Hermann_samples_onto_States0to4_resolution1_1_to_validate_projection_strategy.R
+18j.project_undiff_mouse_SSCs_onto_States0to4_resolution1_1.R
+
+These scripts contain the Seurat commands necessary to project cells from a given sample onto the SSC atlas. They employ a gating strategy to first distinguish somatic from germline cells, and then re-project only the latter onto the SSC UMAP. These scripts create **Figures 4** (sheep, pig, buffalo, macaque), **5** (rat), and **6** (mouse).
+
+## 19.count_num_of_cells_projected_to_each_State0to4_cluster_for_human/mouse/other
+
+19a.count_num_of_cells_projected_to_each_State0to4_cluster_for_human_germline_time_course.pl
+19b.count_num_of_cells_projected_to_each_State0to4_cluster_for_mouse_time_course.pl
+19c.count_num_of_cells_projected_to_each_State0to4_cluster_for_all_other_species.pl
+
+These scripts parse the output of the ‘projection’ scripts to count the proportion of germ cells at each time point classified as state 0, 0A/1, 0B, and so on, as shown in **Supplementary Tables 14, 15, and 16**. These tables constitute the raw data from which **Figures 3A** (human) and **3B** (mouse) are created.
+
+## 20.parse_summary_table_of_States0to4_to_create_shortlist_of_quiescence_associated_genes.pl
+
+This script parses the atlas summary table (from script 12) to create a shortlist of quiescence-associated genes and their relative expression in each of the undifferentiated SSC clusters; this is **Supplementary Table 13**.

@@ -376,7 +376,7 @@ close(IN) or die $!;
 my @gene_names = ();
 while((my $gene_name,my $irrel)=each(%pct))
 	{ push(@gene_names,$gene_name); }
-my @sorted_gene_names = sort {$a cmp $b} @gene_names;
+my @sorted_gene_names = sort {"\L$a" cmp "\L$b"} @gene_names;
 foreach my $gene_name (@sorted_gene_names)
 	{ my $gene_id = '.';
 	  my $gene_desc = '.'; my $gene_type = '.'; my $loc = '.'; my $phenotype = '.'; my $source = '.';

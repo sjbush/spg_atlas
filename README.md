@@ -91,9 +91,9 @@ This script parses a per-gene list of GO term accessions downloaded from [Ensemb
 
 _14a.run_topgo_on_cluster_markers_for_whole_testes_atlas.pl_
 
-_14b.run_topgo_on_cluster_markers_for_SSC_atlas.pl_
+_14b.run_topgo_on_cluster_markers_for_SPG_atlas.pl_
 
-_14c.run_topgo_on_cluster_markers_for_SSC_atlas_in_X_vs_Y_comparison.pl_
+_14c.run_topgo_on_cluster_markers_for_SPG_atlas_in_X_vs_Y_comparison.pl_
 
 These scripts parse both the differential expression analysis results (from script 9) and the per-gene GO term list (from script 13) to create the input files and R code necessary to run the GO term enrichment analysis package topGO.
 
@@ -101,9 +101,9 @@ These scripts parse both the differential expression analysis results (from scri
 
 _15a.parse_topgo_results_for_whole_testes_atlas.pl_
 
-_15b.parse_topgo_results_for_SSC_atlas.pl_
+_15b.parse_topgo_results_for_SPG_atlas.pl_
 
-_15c.parse_topgo_results_for_SSC_atlas_in_X_vs_Y_comparison.pl_
+_15c.parse_topgo_results_for_SPG_atlas_in_X_vs_Y_comparison.pl_
 
 These scripts parse the topGO output into user-friendly results tables, alongside providing additional summary statistics (e.g. the percentage of the total genes with each GO term present in each cluster). The GO terms enriched among the set of genes differentially expressed in each cluster in each atlas, for both all-against-all and pairwise comparisons, are given as **Supplementary Tables 9 to 11**.
 
